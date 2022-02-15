@@ -4,7 +4,7 @@ canvas.width = innerWidth;
 canvas.height = innerHeight;
 
 const bird = new Image();
-bird.src = './images/bird.png';
+bird.src = 'bird.png';
 let birdX = 20;
 const interval = birdSize = 24;
 
