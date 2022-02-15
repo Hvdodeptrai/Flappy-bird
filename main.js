@@ -1,5 +1,6 @@
 const canvas = document.querySelector('canvas');
 const c = canvas.getContext('2d');
+const audio = document.querySelector('.audio');
 canvas.width = 400;
 canvas.height = 400;
 
@@ -14,7 +15,10 @@ let birdY = pipeGap = 160;
 let dy = score = bestScore = 0;
 let canvasSize = pipeX = 400;
 
-canvas.onclick = () => (dy = 9)
+canvas.addEventListener('click', () => {
+    dy = 9;
+    audio.play();
+})
 
 setInterval(() => {
     c.beginPath();
