@@ -10,7 +10,7 @@ const interval = birdSize = 24;
 
 const pipeWidth = topPipeBottomY = 24;
 
-let birdY = pipeGap = 200;
+let birdY = pipeGap = 160;
 let dy = score = bestScore = 0;
 let canvasSize = pipeX = 400;
 
