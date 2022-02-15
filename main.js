@@ -1,7 +1,7 @@
 const canvas = document.querySelector('canvas');
 const c = canvas.getContext('2d');
-canvas.width = innerWidth;
-canvas.height = innerHeight;
+canvas.width = 400;
+canvas.height = 400;
 
 const bird = new Image();
 bird.src = 'bird.png';
