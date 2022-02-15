@@ -51,4 +51,4 @@ setInterval(() => {
         pipeX = canvas.width;
         score = 0;
     }
-}, 24);
+}, interval);
